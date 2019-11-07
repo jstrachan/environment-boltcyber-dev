@@ -12,6 +12,7 @@ dependencies:
   condition: lighthouse.enabled
   name: lighthouse
   repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+  verison: 0.0.267
 - name: jenkins-x-platform
   repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
 # - name: "sso-operator"
