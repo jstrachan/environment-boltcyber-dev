@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:boltcyber/adminUser:password
+  username: admin
+dashboardAuthID: vault:boltcyber:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:boltcyber:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:boltcyber/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:boltcyber/prow:hmacToken
